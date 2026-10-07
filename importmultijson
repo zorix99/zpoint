@@ -1,0 +1,22 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "services": {
+    "deckcraft": {
+      "root": "apps/deckcraft",
+      "runtime": "rust"
+    },
+    "deckcraft-cli": {
+      "root": "apps/deckcraft-cli",
+      "runtime": "rust"
+    },
+    "deckcraft-web": {
+      "root": "apps/deckcraft-web",
+      "runtime": "rust"
+    },
+    "xtask": {
+      "root": "xtask",
+      "runtime": "rust"
+    }
+  },
+  "rewrites": []
+}
